@@ -25,6 +25,7 @@ function startwatch() {
     }
     timer = setInterval(stopwatch, 1000);
 }
+// watch stop
 function watchStop(){
     clearInterval(timer);
 }
